@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+    height: 100px;
+    justify-content: space-around;
+}
+
+.sec1 {
+    background-image: url(Untitled1min.jpg);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100vh;
+}
+
+.sec2 {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+    height: 100vh;
+}
+
+.contaBox {
+    display: flex;
+    gap: 30px;
+    height: 80vh;
+    /* width: 90vw; */
+    background-repeat: no-repeat;
+
+
+}
+
+.box1 {
+    background-image: url(123.jpg);
+    display: flex;
+    align-items: center;
+   /*  justify-content: center; */
+
+}
+
+.box2 {
+    background-image: url(3f8d3833-72b3-3072-3d51-57dad152da82.jpg);
+    display: flex;
+    align-items: center;
+   /*  justify-content: center; */
+}
+
+.box3 {
+    background-image: url(4a1d4947-fd02-e665-4d57-deac20b3eb39.jpg);
+    display: flex;
+    align-items: center;
+   /*  justify-content: center; */
+}
+
+.sec3 {
+    background-image: url(min.jpg);
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background-repeat: no-repeat;
+
+}
+
+
+.sec4 {
+    background-color: black;
+    color: white;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+}
+
+a {
+    border-radius: 25px 25px 25px 25px;
+    border: solid white 0px;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+
+}
+
+a:hover {
+    background-color: gray;
+}
+
+/* h1 {
+    font-size: 50px;
+} */
+
+i {
+    font-size: 50px;
+}
+
+@media(max-width: 500px) {
+    .contaBox{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+       height: fit-content;
+    }
+    .box1,.box2,.box3{
+        width: 300px;
+        height: 350px;
+    }
+    .sec2{
+        height: fit-content;
+        padding: 50px 0px;
+    }
+    .sec3{
+        text-align: center;
+        background-position: center;
+        height: 90vh;
+    }
+    .sec4 h1{
+        font-size: 25px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .fa-solid, .fas{
+        font-size: 30px;
+    }
+}
